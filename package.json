@@ -1,0 +1,32 @@
+{
+  "name": "check-changelog",
+  "version": "1.0.0",
+  "description": "pre-commit hook that checks if the changlog was edited",
+  "main": "src/check-changelog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malteheringOrgatex/check-changelog.git"
+  },
+  "bin": {
+    "check-changelog": "./bin/check-changelog"
+  },
+  "keywords": [
+    "pre-commit",
+    "changelog"
+  ],
+  "author": "Malte Hering",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malteheringOrgatex/check-changelog/issues"
+  },
+  "homepage": "https://github.com/malteheringOrgatex/check-changelog#readme",
+  "dependencies": {
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
